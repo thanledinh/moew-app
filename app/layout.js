@@ -53,6 +53,9 @@ export const metadata = {
     images: ["/images/og-image.webp"],
   },
   manifest: "/manifest.webmanifest",
+  icons: {
+    icon: "/favicon.ico",
+  },
   robots: { index: true, follow: true },
 };
 
