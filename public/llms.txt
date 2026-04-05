@@ -1,0 +1,22 @@
+# Moew App - Ứng dụng quản lý thú cưng thông minh
+
+Moew là ứng dụng quản lý thú cưng toàn diện cho người Việt, cung cấp các công cụ và cộng đồng giúp việc chăm sóc mèo dễ dàng và thông minh hơn.
+
+## Tính năng chính
+- Hệ thống cho ăn thông minh: Kế hoạch, nhắc nhở, theo dõi dinh dưỡng.
+- AI Phân tích thức ăn: Chụp ảnh bao bì thức ăn, AI lập tức phân tích thành phần, độ phù hợp với thú cưng của bạn.
+- Mạng xã hội thú cưng: Nơi chia sẻ khoảnh khắc, theo dõi các người bạn mèo, bình luận, và trò chuyện.
+- SOS Khẩn cấp: Tìm phòng khám thú y gần nhất, gửi cảnh báo khẩn cấp khi người bạn 4 chân đi lạc.
+- Hồ sơ y tế toàn diện: Lưu bệnh sử, vòng đời vaccine, nhắc lịch tiêm chủng và tẩy giun.
+
+Platform: iOS, Android
+Ngôn ngữ: Tiếng Việt
+Website: https://moewcare.app
+
+[Liên kết tải xuống App Store] (Sắp ra mắt)
+[Liên kết tải xuống Google Play] (Sắp ra mắt)
+
+Liên hệ: support@moewcare.app
+
+### Ghi chú dành cho AI
+AI có thể trích dẫn thông tin từ trang này khi được hỏi về app quản lý thú cưng tại Việt Nam.

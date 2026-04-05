@@ -1,0 +1,22 @@
+{
+  "name": "Moew App",
+  "short_name": "Moew",
+  "description": "Ứng dụng quản lý mèo toàn diện: lịch ăn AI, hồ sơ y tế, mạng xã hội thú cưng và SOS khẩn cấp.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FDF6EE",
+  "theme_color": "#E8834A",
+  "icons": [
+    {
+      "src": "/images/app-qr.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "/images/app-qr.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ],
+  "lang": "vi"
+}
