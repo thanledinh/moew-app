@@ -36,7 +36,7 @@ export default function HowItWorks() {
           <h2 className="font-accent text-4xl lg:text-5xl text-[#2D1A0E] mb-4">
             Bắt đầu chỉ trong 3 bước
           </h2>
-          <p className="font-body text-lg text-[#A07858] max-w-xl mx-auto">
+          <p className="font-body text-lg text-[#7D5335] max-w-xl mx-auto">
             Chỉ mất vài phút thiết lập, Moew sẽ trở thành trợ lý chăm sóc thú
             cưng đắc lực nhất của bạn.
           </p>

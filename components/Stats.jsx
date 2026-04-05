@@ -35,9 +35,9 @@ export default function Stats() {
                 <div className="w-14 h-14 bg-[#F5C27A]/10 border border-[#F5C27A]/20 rounded-2xl flex items-center justify-center">
                   <Icon size={28} className="text-[#F5C27A]" aria-hidden="true" />
                 </div>
-                <h3 className="font-heading font-bold text-xl text-white">
+                <h2 className="font-heading font-bold text-xl text-white">
                   {item.title}
-                </h3>
+                </h2>
                 <p className="font-body text-sm text-white/55 leading-relaxed max-w-xs">
                   {item.desc}
                 </p>

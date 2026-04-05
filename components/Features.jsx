@@ -65,7 +65,7 @@ export default function Features() {
           <h2 className="font-accent text-4xl lg:text-5xl text-[#2D1A0E] mb-4">
             Chăm sóc thú cưng dễ dàng hơn
           </h2>
-          <p className="font-body text-lg text-[#A07858] max-w-2xl mx-auto">
+          <p className="font-body text-lg text-[#7D5335] max-w-2xl mx-auto">
             Moew mang đến những công cụ hữu ích nhất giúp bạn hiểu và chăm sóc
             người bạn 4 chân tốt nhất.
           </p>

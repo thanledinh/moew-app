@@ -30,7 +30,7 @@ export default function DownloadCTA() {
               height={120}
               className="rounded-lg"
             />
-            <p className="font-heading text-xs text-[#A07858] mt-2 text-center font-semibold">
+            <p className="font-heading text-xs text-[#7D5335] mt-2 text-center font-semibold">
               Quét tải app
             </p>
           </div>

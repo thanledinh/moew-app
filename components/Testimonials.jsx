@@ -30,7 +30,7 @@ export default function Testimonials() {
           <h2 className="font-accent text-4xl lg:text-5xl text-[#2D1A0E] mb-4">
             Bạn có muốn là người đầu tiên?
           </h2>
-          <p className="font-body text-lg text-[#A07858] max-w-xl mx-auto">
+          <p className="font-body text-lg text-[#7D5335] max-w-xl mx-auto">
             Moew đang trong giai đoạn beta. Chúng tôi đang tìm kiếm những người yêu mèo muốn
             thử nghiệm app và đóng góp ý kiến thật sự.
           </p>

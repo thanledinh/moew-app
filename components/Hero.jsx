@@ -48,7 +48,7 @@ export default function Hero() {
               >
                 <Smartphone size={20} aria-hidden="true" />
                 <span>
-                  <span className="block text-xs text-[#A07858] font-body font-normal leading-none mb-0.5">
+                  <span className="block text-xs text-[#7D5335] font-body font-normal leading-none mb-0.5">
                     Tải trên
                   </span>
                   Google Play
@@ -70,7 +70,7 @@ export default function Hero() {
                 <p className="font-heading font-semibold text-sm text-[#2D1A0E]">
                   Quét để tải ngay
                 </p>
-                <p className="text-xs text-[#A07858] font-body mt-0.5">
+                <p className="text-xs text-[#7D5335] font-body mt-0.5">
                   iOS & Android
                 </p>
               </div>
@@ -92,7 +92,7 @@ export default function Hero() {
 
             <div className="animate-float">
               <Image
-                src="/images/hero-mockup.webp"
+                src="/images/hero-mockup-v2.webp"
                 alt="Giao diện ứng dụng Moew hiển thị trên điện thoại"
                 width={380}
                 height={760}

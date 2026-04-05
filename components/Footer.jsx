@@ -30,7 +30,7 @@ export default function Footer() {
               <PawPrint className="text-[#E8834A]" size={24} />
               <span className="font-accent text-2xl text-[#C96535]">Moew</span>
             </Link>
-            <p className="font-body text-[#A07858] text-sm leading-relaxed max-w-xs">
+            <p className="font-body text-[#7D5335] text-sm leading-relaxed max-w-xs">
               Biến việc chăm thú cưng của bạn trở nên đơn giản, vui vẻ và
               thông minh hơn mỗi ngày.
             </p>
@@ -39,9 +39,9 @@ export default function Footer() {
           {/* Link columns */}
           {Object.entries(footerLinks).map(([category, links]) => (
             <div key={category}>
-              <h4 className="font-heading font-semibold text-[#2D1A0E] mb-5">
+              <h2 className="font-heading font-semibold text-[#2D1A0E] mb-5">
                 {category}
-              </h4>
+              </h2>
               <ul className="flex flex-col gap-3">
                 {links.map((link) => (
                   <li key={link.label}>
@@ -60,14 +60,14 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-[#EDD9C0] flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="font-body text-sm text-[#A07858]">
+          <p className="font-body text-sm text-[#7D5335]">
             &copy; 2026 Moew App. All rights reserved.
           </p>
           <div className="flex gap-6">
-            <a href="#" className="font-body text-sm text-[#A07858] hover:text-[#E8834A] transition-colors">
+            <a href="#" className="font-body text-sm text-[#7D5335] hover:text-[#E8834A] transition-colors">
               Chính sách bảo mật
             </a>
-            <a href="#" className="font-body text-sm text-[#A07858] hover:text-[#E8834A] transition-colors">
+            <a href="#" className="font-body text-sm text-[#7D5335] hover:text-[#E8834A] transition-colors">
               Điều khoản sử dụng
             </a>
           </div>
