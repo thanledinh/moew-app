@@ -16,12 +16,6 @@ const inter = Inter({
   weight: ["400", "500", "600"],
 });
 
-const dmSerif = DM_Serif_Display({
-  subsets: ["latin"],
-  variable: "--font-accent",
-  display: "swap",
-  weight: "400",
-});
 
 export const metadata = {
   title: "MoewCare | Ứng Dụng Chăm Sóc Chuẩn Meow Cho Thú Cưng",
@@ -102,7 +96,7 @@ const jsonLd = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="vi" className={`${plusJakarta.variable} ${inter.variable} ${dmSerif.variable}`}>
+    <html lang="vi" className={`${plusJakarta.variable} ${inter.variable}`}>
       <head>
         <script
           type="application/ld+json"
