@@ -1,5 +1,4 @@
 import { Plus_Jakarta_Sans, Inter } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 
 const plusJakarta = Plus_Jakarta_Sans({
@@ -99,23 +98,27 @@ export default function RootLayout({ children }) {
     <html lang="vi" className={`${plusJakarta.variable} ${inter.variable}`}>
       <head>
         <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=G-E0PG7FYMCT`}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-E0PG7FYMCT', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
       <body className="antialiased">
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-E0PG7FYMCT"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-E0PG7FYMCT');
-          `}
-        </Script>
         {children}
       </body>
     </html>
