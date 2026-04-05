@@ -32,7 +32,7 @@ const features = [
     title: "Mạng Xã Hội Thú Cưng",
     description:
       "Chia sẻ khoảnh khắc đáng yêu, theo dõi và kết nối với cộng đồng những người yêu mèo trên khắp Việt Nam.",
-    image: "/images/feature-social.webp",
+    image: "/images/feature-social-v2.webp",
     alt: "Feed mạng xã hội chia sẻ ảnh thú cưng trong ứng dụng Moew",
     badge: "Cộng đồng",
   },

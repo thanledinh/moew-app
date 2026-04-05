@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Moew App",
     images: [
       {
-        url: "/images/og-image.webp",
+        url: "/images/og-image-v2.webp",
         width: 1200,
         height: 630,
         alt: "Moew App - Ứng dụng quản lý thú cưng thông minh",
@@ -50,7 +50,7 @@ export const metadata = {
     title: "MoewCare | Ứng Dụng Chăm Sóc Chuẩn Meow Cho Thú Cưng",
     description:
       "Bạn đang tìm Meow app tốt nhất? MoewCare có lịch ăn AI, hồ sơ y tế, cộng đồng Meow và SOS khẩn cấp.",
-    images: ["/images/og-image.webp"],
+    images: ["/images/og-image-v2.webp"],
   },
   manifest: "/manifest.webmanifest",
   icons: {
