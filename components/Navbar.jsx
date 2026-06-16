@@ -14,9 +14,10 @@ export default function Navbar() {
   }, []);
 
   const links = [
-    { href: "#features", label: "Tính năng" },
-    { href: "#how-it-works", label: "Hướng dẫn" },
-    { href: "#testimonials", label: "Đánh giá" },
+    { href: "/tim-meo", label: "Tìm Mèo Cứu Hộ" },
+    { href: "/#features", label: "Tính năng" },
+    { href: "/#how-it-works", label: "Hướng dẫn" },
+    { href: "/#testimonials", label: "Đánh giá" },
   ];
 
   return (
