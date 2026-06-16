@@ -2,8 +2,8 @@
 
 export function FolderCard({ folder, onClick }) {
   const images = folder.images || [];
-  // Use the first image/video as thumbnail
-  const firstMedia = images[0];
+  // Prefer image over video for thumbnail
+  const firstMedia = images.find(m => !m.mimeType.includes('video')) || images[0];
 
   const sbd = folder.sbd || 'Chưa rõ';
   const code = folder.code || '';
