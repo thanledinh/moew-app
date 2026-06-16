@@ -20,7 +20,7 @@ export function FolderCard({ folder, onClick }) {
           firstMedia.mimeType.includes('video') ? (
             <>
               <video
-                src={`${process.env.NEXT_PUBLIC_CDN_URL || ''}${firstMedia.url}`}
+                src={`${process.env.NEXT_PUBLIC_CDN_URL || 'https://pub-c19a950af4f74b0480e28ce7edf7022c.r2.dev'}${firstMedia.url}`}
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 muted
                 loop
@@ -36,7 +36,7 @@ export function FolderCard({ folder, onClick }) {
           ) : (
             // eslint-disable-next-line @next/next/no-img-element
             <img
-              src={`${process.env.NEXT_PUBLIC_CDN_URL || ''}${firstMedia.url}`}
+              src={`${process.env.NEXT_PUBLIC_CDN_URL || 'https://pub-c19a950af4f74b0480e28ce7edf7022c.r2.dev'}${firstMedia.url}`}
               alt={folder.rawName || 'Cat'}
               className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
               loading="lazy"

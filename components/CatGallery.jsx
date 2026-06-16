@@ -68,16 +68,16 @@ export function CatGallery({ folders }) {
                   <div key={img.id} className="group relative aspect-square overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800">
                     {img.mimeType.includes('video') ? (
                       <video
-                        src={`${process.env.NEXT_PUBLIC_CDN_URL || ''}${img.url}`}
+                        src={`${process.env.NEXT_PUBLIC_CDN_URL || 'https://pub-c19a950af4f74b0480e28ce7edf7022c.r2.dev'}${img.url}`}
                         controls
                         className="h-full w-full object-contain"
                         preload="metadata"
                       />
                     ) : (
-                      <a href={`${process.env.NEXT_PUBLIC_CDN_URL || ''}${img.url}`} target="_blank" rel="noopener noreferrer">
+                      <a href={`${process.env.NEXT_PUBLIC_CDN_URL || 'https://pub-c19a950af4f74b0480e28ce7edf7022c.r2.dev'}${img.url}`} target="_blank" rel="noopener noreferrer">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
-                          src={`${process.env.NEXT_PUBLIC_CDN_URL || ''}${img.url}`}
+                          src={`${process.env.NEXT_PUBLIC_CDN_URL || 'https://pub-c19a950af4f74b0480e28ce7edf7022c.r2.dev'}${img.url}`}
                           alt={img.name}
                           className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                           loading="lazy"
